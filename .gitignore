@@ -1,5 +1,4 @@
 node_modules
 dist
 
-tsconfig.json
-babel.config.json
+*.json

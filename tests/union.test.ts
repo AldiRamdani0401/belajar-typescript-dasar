@@ -11,5 +11,5 @@ describe('Union Type', function() {
 
     // sample = [1, 2]; /* Error */
     // console.info(sample);
-  })
-})
+  });
+});

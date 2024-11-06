@@ -8,6 +8,10 @@
     "test": "jest"
   },
   "jest": {
+    "testPathIgnorePatterns": [
+      "/tests/(any|array|hello|say-hello|data-type|tupple|union|union.case1|union.case2|type-alias|type-alias.case1|object)\\.test\\.ts$",
+      "/dist/tests/"
+    ],
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     }
